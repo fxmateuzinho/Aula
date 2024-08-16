@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Exploração Intergaláctica</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Durante uma expedição espacial, você encontra um antigo mapa estelar que indica a localização de um planeta perdido, cheio de mistérios e riquezas. Decidido a descobrir o que há neste planeta, você começa a jornada.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a Nebulosa Andromeda</button>
+            <button class="btn-proximo" data-proximo="2">Investigar o Buraco Negro de Sagitário</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você viaja para a Nebulosa Andromeda e faz uma parada em uma estação espacial para coletar informações adicionais. Qual área da estação você decide explorar?</p>
+            <button class="btn-proximo" data-proximo="3">Visitar o laboratório de pesquisa</button>
+            <button class="btn-proximo" data-proximo="4">Ir ao centro de comando</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No Buraco Negro de Sagitário, você encontra uma nave abandonada. Em um dos compartimentos, descobre um registro de um antigo explorador que menciona um planeta misterioso. Para onde você vai agora?</p>
+            <button class="btn-proximo" data-proximo="5">Seguir as coordenadas no registro</button>
+            <button class="btn-proximo" data-proximo="6">Investigar a nave abandonada</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No laboratório de pesquisa da estação, você encontra um arquivo secreto que aponta a localização exata do planeta perdido.</p>
+            <button class="btn-proximo" data-proximo="7">Rumo ao planeta perdido</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-desistir.png" alt="imagem de alguém desistindo e voltando para a Terra">
+            <p>Você decide que a missão é muito arriscada e volta para a Terra, sempre imaginando o que teria descoberto.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Seguindo as coordenadas, você se depara com uma antiga estação espacial que contém mais pistas sobre o planeta perdido.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o planeta perdido</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Investigando a nave, você encontra registros antigos, mas nada que ajude diretamente na sua busca. Você decide retornar e seguir as coordenadas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o planeta perdido</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Chegando ao planeta perdido, você encontra uma paisagem deslumbrante com sinais de uma civilização avançada. O que você faz a seguir?</p>
+            <button class="btn-proximo" data-proximo="8">Explorar as ruínas</button>
+            <button class="btn-proximo" data-proximo="9">Estudar o ambiente ao redor</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Nas ruínas, você descobre tecnologia antiga e artefatos que revelam a história do planeta e suas riquezas.</p>
+            <button class="btn-proximo" data-proximo="10">Investigar mais profundamente</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Estudando o ambiente, você encontra uma entrada oculta que leva a uma caverna cheia de artefatos e segredos.</p>
+            <button class="btn-proximo" data-proximo="10">Explorar a caverna</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10-descoberta.png" alt="descobrindo a tecnologia avançada e segredos no planeta perdido">
+            <p>Dentro da caverna, você faz descobertas surpreendentes sobre a civilização antiga e decide se dedicar a preservar e estudar o planeta perdido.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+```
